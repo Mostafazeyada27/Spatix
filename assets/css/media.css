@@ -1,0 +1,544 @@
+@media (max-width: 2560px) and (min-width: 1441px) {
+}
+
+@media (max-width: 1440px) and (min-width: 1201px) {
+}
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+}
+
+@media (max-width: 1024px) and (min-width: 993px) {
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+  .choose .content .percentage .pre-1,
+  .choose .content .percentage .pre-2,
+  .choose .content .percentage .pre-3,
+  .choose .content .percentage .pre-4,
+  .choose .content .percentage .pre-5 {
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .choose .content .percentage .pre-2::before,
+  .choose .content .percentage .pre-1::before,
+  .choose .content .percentage .pre-3::before,
+  .choose .content .percentage .pre-4::before,
+  .choose .content .percentage .pre-5::before {
+    left: 0;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 426px) {
+}
+
+@media (max-width: 426px) and (min-width: 376px) {
+  .toggle-btn {
+    display: block;
+  }
+  .toggle-btn {
+    display: block;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    left: -100%;
+    display: flex;
+    flex-direction: column !important;
+    background-color: var(--primary-color);
+    transition: all 0.4s linear;
+    padding: 0 20px;
+  }
+  .navbar-nav.active {
+    left: 0;
+  }
+  .choose .content,
+  .our-team .content,
+  .contact .content,
+  .flex-data {
+    flex-direction: column;
+  }
+  .portfolio .content .btn,
+  .choose .content,
+  .our-team .content,
+  .contact .content,
+  .flex-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .counter .row,
+  header .contain,
+  .choose .content .percentage p::after,
+  .choose .content .percentage,
+  .choose .content .text,
+  .choose .content,
+  .contact-us .content input,
+  .contact-us .content .form textarea,
+  .contact-us .content button {
+    width: 100%;
+  }
+
+  .choose .content .percentage p {
+    margin-left: 0px;
+  }
+
+  header {
+    padding: 120px 0px 50px;
+  }
+
+  header .contain {
+    padding: 0px;
+  }
+  .contact-us .heading h1,
+  .choose .heading h1,
+  header .contain h1,
+  .clients-say .content h1 {
+    font-size: 30px;
+  }
+
+  header .contain .row .image-icon img,
+  footer .content .icon .image-icon img {
+    width: 15px;
+  }
+  header .contain .row .image-icon,
+  footer .content .icon .image-icon {
+    width: 30px;
+    height: 30px;
+  }
+  header .contain .row {
+    flex-direction: row !important;
+    margin-top: 20px !important;
+  }
+
+  .heading p {
+    margin: 0px !important;
+    font-size: 12px;
+  }
+
+  .counter .row {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .counter .row .count {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .counter .image-count {
+    margin: 0px auto;
+  }
+  .portfolio .row .image-portf {
+    width: calc(100% / 2);
+  }
+  .counter {
+    height: fit-content;
+  }
+  .choose .content p {
+    text-align: center;
+  }
+  .choose .content .percentage .pre-1,
+  .choose .content .percentage .pre-2,
+  .choose .content .percentage .pre-3,
+  .choose .content .percentage .pre-4,
+  .choose .content .percentage .pre-5 {
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .choose .content .percentage .pre-2::before,
+  .choose .content .percentage .pre-1::before,
+  .choose .content .percentage .pre-3::before,
+  .choose .content .percentage .pre-4::before,
+  .choose .content .percentage .pre-5::before {
+    left: 0;
+  }
+  .portfolio {
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio h1 {
+    margin: 0;
+    padding: 30px 0 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .clients-say {
+    padding: 50px 0;
+  }
+  .clients-say .content .say-icon {
+    margin: 0 auto;
+  }
+  .clients-say .content p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .clients-say .content h2 {
+    padding: 10px 0;
+  }
+  .clients-say .content .dot {
+    margin: 0 auto;
+  }
+  .clients-say .content .dot::before {
+    left: -30px;
+  }
+  .clients-say .content .dot::after {
+    right: -15px;
+  }
+  .contact-us .content {
+    margin: 0;
+  }
+
+  footer .content .icon {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 376px) and (min-width: 321px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .navbar-nav {
+    width: 100%;
+
+    position: absolute;
+    top: 75px;
+    left: -100%;
+    display: flex;
+    flex-direction: column !important;
+    background-color: var(--primary-color);
+    transition: all 0.4s linear;
+    padding: 0 20px;
+  }
+  .navbar-nav.active {
+    left: 0;
+  }
+  .choose .content,
+  .our-team .content,
+  .contact .content,
+  .flex-data {
+    flex-direction: column;
+  }
+  .portfolio .content .btn,
+  .choose .content,
+  .our-team .content,
+  .contact .content,
+  .flex-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .counter .row,
+  header .contain,
+  .choose .content .percentage p::after,
+  .choose .content .percentage,
+  .choose .content .text,
+  .choose .content,
+  .contact-us .content input,
+  .contact-us .content .form textarea,
+  .contact-us .content button {
+    width: 100%;
+  }
+
+  .choose .content .percentage p {
+    margin-left: 0px;
+  }
+
+  header {
+    padding: 120px 0px 50px;
+  }
+
+  header .contain {
+    padding: 0px;
+  }
+  .contact-us .heading h1,
+  .choose .heading h1,
+  header .contain h1,
+  .clients-say .content h1 {
+    font-size: 30px;
+  }
+
+  header .contain .row .image-icon img,
+  footer .content .icon .image-icon img {
+    width: 15px;
+  }
+  header .contain .row .image-icon,
+  footer .content .icon .image-icon {
+    width: 30px;
+    height: 30px;
+  }
+  header .contain .row {
+    flex-direction: row !important;
+    margin-top: 20px !important;
+  }
+
+  .heading p {
+    margin: 0px !important;
+    font-size: 12px;
+  }
+
+  .counter .row {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .counter .row .count {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .counter .image-count {
+    margin: 0px auto;
+  }
+  .portfolio .row .image-portf {
+    width: calc(100% / 2);
+  }
+  .counter {
+    height: fit-content;
+  }
+  .choose .content p {
+    text-align: center;
+  }
+  .choose .content .percentage .pre-1,
+  .choose .content .percentage .pre-2,
+  .choose .content .percentage .pre-3,
+  .choose .content .percentage .pre-4,
+  .choose .content .percentage .pre-5 {
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .choose .content .percentage .pre-2::before,
+  .choose .content .percentage .pre-1::before,
+  .choose .content .percentage .pre-3::before,
+  .choose .content .percentage .pre-4::before,
+  .choose .content .percentage .pre-5::before {
+    left: 0;
+  }
+  .portfolio {
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio h1 {
+    margin: 0;
+    padding: 30px 0 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .clients-say {
+    padding: 50px 0;
+  }
+  .clients-say .content .say-icon {
+    margin: 0 auto;
+  }
+  .clients-say .content p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .clients-say .content h2 {
+    padding: 10px 0;
+  }
+  .clients-say .content .dot {
+    margin: 0 auto;
+  }
+  .clients-say .content .dot::before {
+    left: -30px;
+  }
+  .clients-say .content .dot::after {
+    right: -15px;
+  }
+  .contact-us .content {
+    margin: 0;
+  }
+
+  footer .content .icon {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 320px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    display: flex;
+    flex-direction: column !important;
+    background-color: var(--primary-color);
+    transition: all 0.4s linear;
+    padding: 0 20px;
+  }
+  .navbar-nav.active {
+    left: 0;
+  }
+
+  .choose .content,
+  .our-team .content,
+  .contact .content,
+  .flex-data {
+    flex-direction: column;
+  }
+  .portfolio .content .btn,
+  .choose .content,
+  .our-team .content,
+  .contact .content,
+  .flex-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .counter .row,
+  header .contain,
+  .choose .content .percentage p::after,
+  .choose .content .percentage,
+  .choose .content .text,
+  .choose .content,
+  .contact-us .content input,
+  .contact-us .content .form textarea,
+  .contact-us .content button {
+    width: 100%;
+  }
+
+  .choose .content .percentage p {
+    margin-left: 0px;
+  }
+
+  header {
+    padding: 120px 0px 50px;
+  }
+
+  header .contain {
+    padding: 0px;
+  }
+  .contact-us .heading h1,
+  .choose .heading h1,
+  header .contain h1,
+  .clients-say .content h1 {
+    font-size: 30px;
+  }
+
+  header .contain .row .image-icon img,
+  footer .content .icon .image-icon img {
+    width: 15px;
+  }
+  header .contain .row .image-icon,
+  footer .content .icon .image-icon {
+    width: 30px;
+    height: 30px;
+  }
+  header .contain .row {
+    flex-direction: row !important;
+    margin-top: 20px !important;
+  }
+
+  .heading p {
+    margin: 0px !important;
+    font-size: 12px;
+  }
+
+  .counter .row {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .counter .row .count {
+    width: calc((100% / 2) - 10px);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .counter .image-count {
+    margin: 0px auto;
+  }
+  .portfolio .row .image-portf {
+    width: 100%;
+  }
+  .counter {
+    height: fit-content;
+  }
+  .choose .content p {
+    text-align: center;
+  }
+  .choose .content .percentage .pre-1,
+  .choose .content .percentage .pre-2,
+  .choose .content .percentage .pre-3,
+  .choose .content .percentage .pre-4,
+  .choose .content .percentage .pre-5 {
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .choose .content .percentage .pre-2::before,
+  .choose .content .percentage .pre-1::before,
+  .choose .content .percentage .pre-3::before,
+  .choose .content .percentage .pre-4::before,
+  .choose .content .percentage .pre-5::before {
+    left: 0;
+  }
+  .portfolio {
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio h1 {
+    margin: 0;
+    padding: 30px 0 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .clients-say {
+    padding: 50px 0;
+  }
+  .clients-say .content .say-icon {
+    margin: 0 auto;
+  }
+  .clients-say .content p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .clients-say .content h2 {
+    padding: 10px 0;
+  }
+  .clients-say .content .dot {
+    margin: 0 auto;
+  }
+  .clients-say .content .dot::before {
+    left: -30px;
+  }
+  .clients-say .content .dot::after {
+    right: -15px;
+  }
+  .contact-us .content {
+    margin: 0;
+  }
+
+  footer .content .icon {
+    display: flex;
+    flex-direction: row;
+  }
+}
